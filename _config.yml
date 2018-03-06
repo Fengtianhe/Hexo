@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 「不忘初心方得始终」
-subtitle:
+title: 冯天鹤's Blog
+subtitle: 「不忘初心方得始终」
 description: 技术博客, 记录成长
 author: 冯天鹤
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -81,3 +81,33 @@ deploy:
   type: git
   branch: master  ## branch这一行默认不写，如果你需要特别指定，可以在这里加上
   repository: https://github.com/Fengtianhe/blog.git
+
+# 搜索配置
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+
+# 站点地图
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
