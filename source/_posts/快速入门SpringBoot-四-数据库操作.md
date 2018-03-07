@@ -6,6 +6,7 @@ tags:
 - SpringBoot
 categories: 快速入门SpringBoot
 ---
+## 安装依赖
 说到数据库的操作, 我们需要两个依赖,分别是
 ```
         <dependency>
@@ -18,10 +19,13 @@ categories: 快速入门SpringBoot
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 ```
+
+## 修改配置文件
 在配置文件中设置数据库配置
 
 ![application.yml](http://upload-images.jianshu.io/upload_images/2663172-f6d4473cead7d0b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 创建Model类
 然后创建一个类,定义字段和构造方法以及getter和setter方法, idea的快捷键是`control+回车`
 
 ![image.png](http://upload-images.jianshu.io/upload_images/2663172-d1816f5484e0a44b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -44,7 +48,7 @@ categories: 快速入门SpringBoot
 |PUT|/girls/{id}|通过id修改一条记录|
 |DELETE|/girls/{id}|通过id删除一条记录|
 
-创建一个JPA的接口类
+## 创建一个JPA的接口类
 ![image.png](http://upload-images.jianshu.io/upload_images/2663172-f2b70cb2a344403a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![image.png](http://upload-images.jianshu.io/upload_images/2663172-f87a913ac665fae4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
