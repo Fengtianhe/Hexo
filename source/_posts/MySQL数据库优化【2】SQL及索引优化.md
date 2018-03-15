@@ -2,6 +2,7 @@
 title: MySQL数据库优化【2】SQL及索引优化
 date: 2018-03-15 16:40:18
 tags: MySQL
+categories: 数据库优化
 ---
 
 ## 准备数据
@@ -121,3 +122,6 @@ http://dev.mysql.com/doc/sakila/en/sakila-installation.html
 4. SQL的内容
 
 `select  * from actor;`
+
+
+上一章[MySQL数据库优化【1】简介](/MySQL数据库优化【1】简介/)
