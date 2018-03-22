@@ -123,5 +123,6 @@ http://dev.mysql.com/doc/sakila/en/sakila-installation.html
 
 `select  * from actor;`
 
-
-上一章[MySQL数据库优化【1】简介](/MySQL数据库优化【1】简介/)
+---
+上一章:[MySQL数据库优化【1】简介](/MySQL数据库优化【1】简介/)
+下一章:[MySQL数据库优化【3】慢查日志分析工具](/MySQL数据库优化【3】慢查日志分析工具/)
