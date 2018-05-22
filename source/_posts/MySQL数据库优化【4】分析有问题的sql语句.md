@@ -55,4 +55,3 @@ eg:`mysql> explain select customer_id,first_name,last_name from customer`
 
 ---
 上一章:[MySQL数据库优化【3】慢查日志分析工具](/MySQL数据库优化【3】慢查日志分析工具/)
-下一章:[MySQL数据库优化【5】优化实例](/MySQL数据库优化【5】优化实例/)
