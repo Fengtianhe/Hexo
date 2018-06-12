@@ -3,10 +3,10 @@ title: 开发工具-terminal配色方案
 date: 2018-06-12 17:49:05
 tags: 开发工具
 ---
-# MAC下Iterm2配色方案
-## 编辑bash_profile文件
+## MAC下Iterm2配色方案
+### 1.编辑bash_profile文件
 `vim ~/.bash_profile`
-## 带有 git 分支形式的
+### 2.带有 git 分支形式的
 ```
 find_git_branch () {
     local dir=. head
@@ -33,7 +33,7 @@ blue=$'\[\033[01;36m\]'
 red=$'\[\e[1;31m\]'
 PS1="$green\u@\h$grey:$blue\W$red\$git_branch$grey\$    "
 ```
-## 没有 git 分支形式的
+### 3.没有 git 分支形式的
 
 ```
 #enables colorin the terminal bash shell export
@@ -47,8 +47,8 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 #enables colorfor iTerm
 export TERM=xterm-256color
 ```
-## 生效配置
+### 4.生效配置
 `source ~/.bash_profile`
-## 效果图
+### 5.效果图
 ![带有git分支](/images/20180612-1.jpg)
 ![没有git分支](/images/20180612-2.jpg)
