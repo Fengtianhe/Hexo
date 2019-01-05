@@ -80,7 +80,7 @@ theme: jsimple
 deploy:
   type: git
   branch: master  ## branch这一行默认不写，如果你需要特别指定，可以在这里加上
-  repository: https://github.com/Fengtianhe/blog.git
+  repository: https://git.dev.tencent.com/fengtianhe/blog.git
 
 # 搜索配置
 jsonContent:
