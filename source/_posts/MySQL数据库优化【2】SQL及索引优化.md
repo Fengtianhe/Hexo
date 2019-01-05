@@ -1,8 +1,10 @@
 ---
 title: MySQL数据库优化【2】SQL及索引优化
 date: 2018-03-15 16:40:18
-tags: MySQL
-categories: 数据库优化
+tags:
+  - MySQL
+  - 数据库优化
+categories: db
 ---
 
 ## 准备数据

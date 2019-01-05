@@ -3,7 +3,7 @@ title: '快速开发基于AndroidWebView的WebApp[1]----初始化项目'
 date: 2018-03-08 17:15:46
 tags:
 - Android
-categories: 快速开发基于AndroidWebView的WebApp
+categories: rd
 ---
 
 本文章仅献给一点毫无Android基础的开发人员快速开发webview项目

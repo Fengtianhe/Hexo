@@ -4,7 +4,7 @@ date: 2018-03-06 19:04:50
 tags:
 - Java
 - SpringBoot
-categories: 快速入门SpringBoot
+categories: rd
 ---
 controller层是现在框架必不可少的一层,在springBoot中controller的使用需要三个很重要的注解
 

@@ -4,7 +4,7 @@ date: 2018-03-02 14:50:47
 tags:
   - Java
   - SpringBoot
-categories: 快速入门SpringBoot
+categories: rd
 ---
 这里推荐使用 ***IntelliJ IDEA***  编译器, 有人会问为什么不是使用Eclipse, 答案是IDEA可以快速的创建SpringBoot项目,不需要繁琐的创建过程
 

@@ -2,7 +2,7 @@
 title: Let's Encrypt，免费好用的 HTTPS 证书
 date: 2018-05-22 12:21:38
 tags: 服务器
-categories: 服务器
+categories: server
 ---
 
 >   本文转自[Jerry Qu 的 Let's Encrypt，免费好用的 HTTPS 证书](https://imququ.com/post/letsencrypt-certificate.html)。如果需要查看评论和解决方案，请点击

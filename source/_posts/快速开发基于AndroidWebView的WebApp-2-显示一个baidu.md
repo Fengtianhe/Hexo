@@ -3,7 +3,7 @@ title: '快速开发基于AndroidWebView的WebApp[2]----显示一个baidu'
 date: 2018-03-08 18:07:17
 tags:
 - Android
-categories: 快速开发基于AndroidWebView的WebApp
+categories: rd
 ---
 在上一节中我们只新建了一个项目， 在这一节中， 我们要显示一个baidu 来达到webview的效果
 

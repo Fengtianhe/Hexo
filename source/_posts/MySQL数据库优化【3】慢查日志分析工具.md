@@ -1,8 +1,10 @@
 ---
 title: MySQL数据库优化【3】慢查日志分析工具
 date: 2018-03-19 15:19:46
-tags: MySQL
-categories: 数据库优化
+tags:
+  - MySQL
+  - 数据库优化
+categories: db
 ---
 
 ## mysqldumpslow

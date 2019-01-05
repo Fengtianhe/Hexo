@@ -4,7 +4,7 @@ date: 2018-03-06 19:05:36
 tags:
 - Java
 - SpringBoot
-categories: 快速入门SpringBoot
+categories: rd
 ---
 ## 安装依赖
 说到数据库的操作, 我们需要两个依赖,分别是
