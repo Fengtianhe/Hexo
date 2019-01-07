@@ -5,6 +5,7 @@ tags:
   - MySQL
   - 数据库优化
 categories: db
+author: 冯天鹤
 ---
 ## 通过慢查日志分析有问题的语句
 ### 1、查询次数多切每次查询占用时间长的SQL

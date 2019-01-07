@@ -7,13 +7,15 @@ title: 冯天鹤's Blog
 subtitle: 「不忘初心方得始终」
 description: 技术博客, 记录成长
 author: 冯天鹤
-language: zh-cn
+language:
+- zh-cn
+- en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.fengtianhe.cn
-root: /
+root: ./
 permalink: :title/ # :year/:month/:day/:title/
 permalink_defaults:
 
@@ -26,12 +28,14 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
+  - README.zhCN.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: true # Transform title into titlecase
+external_link: false # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -83,24 +87,24 @@ deploy:
   repository: https://git.dev.tencent.com/fengtianhe/blog.git
 
 # 搜索配置
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: true
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: true
-    tags: true
+#jsonContent:
+#  meta: true
+#  pages: true
+#  posts:
+#    title: true
+#    date: true
+#    path: true
+#    text: true
+#    raw: true
+#    content: true
+#    slug: true
+#    updated: true
+#    comments: true
+#    link: true
+#    permalink: true
+#    excerpt: true
+#    categories: true
+#    tags: true
 
 # 站点地图
 Plugins:

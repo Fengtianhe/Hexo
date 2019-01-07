@@ -5,6 +5,7 @@ tags:
 - Java
 - SpringBoot
 categories: rd
+author: 冯天鹤
 ---
 项目都会有配置文件的, 配置数据库, redis 等等....
 那么这个文件在哪藏着呢?

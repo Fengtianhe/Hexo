@@ -3,6 +3,7 @@ title: 开发工具-terminal配色方案
 date: 2018-06-12 17:49:05
 tags: 开发工具
 category: others
+author: 冯天鹤
 ---
 ## MAC下Iterm2配色方案
 ### 1.编辑bash_profile文件
