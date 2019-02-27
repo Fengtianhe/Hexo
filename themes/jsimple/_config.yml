@@ -95,15 +95,16 @@ pageServerUrl: https://github.com/Fengtianhe/blog
 
 ## Comments settings. Disqus | Gitment（Introduction: https://imsun.net/posts/gitment-introduction/）
 comments:
-  enable: false
-  githubID:
-  repo:
-  ClientID:
-  ClientSecret:
-  lazy: true
+  enable: true
+  disqus_shortname: fengtianhe-blog
+  gitment:
+    repo:
+    githubID:
+    ClientID:
+    ClientSecret:
+    lazy: true
 
 ## Comments settings. Disqus support only by default.
-disqus_shortname: fengtianhe-blog
 
 # Analytics
 tentcentAnalyticsId: 500665509
