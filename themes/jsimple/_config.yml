@@ -81,9 +81,9 @@ analytics:
 
 ## Google AdSense.
 adsense:
-  enable: false
-  auto: false
-  client_id:
+  enable: true
+  auto: true
+  client_id: ca-pub-4443191639930926
   archive_id:
   tags_id:
   post_left_id:
