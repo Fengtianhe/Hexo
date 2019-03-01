@@ -19,5 +19,5 @@ photos:
 
 友情链接
 
-[]
+[wuyanbin](http://wuyanbin.top/)
 

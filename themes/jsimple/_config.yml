@@ -35,14 +35,17 @@ site_building_time: 01/20/2018
 ## Name order decide show index.The name also called category alias,so you must set category alias before start server.
 ## BTW,'category_map' and 'tag_map' field in site '_config.yml' file must one to one correspondence with menus below.
 menu:
-   前端: fe
-   后端: rd
-   数据库: db
-   服务器: server
-   其他: others
+  前端: fe
+  后端: rd
+  数据库: db
+  服务器: server
+  其他: others
 
 # Customize left navigation menus. faName is FontAwesome style name
 left_nav_menus:
+- uri: links
+  title: 友链
+  faName: fa-links
 - uri: help
   title: 帮助
   faName: fa-question-circle
@@ -55,9 +58,9 @@ coverDescription: 一个程序员一步一步爬坑的过程
 # sns url
 # 社交信息，支持：telegram,instagram,twitter,github,sinaWb,facebook,github，建议最多4项
 sns:
-#  telegram: http://t.me/kunyintang
-#  instagram: https://www.instagram.com/mtangsir/
-#  twitter: https://twitter.com/tangkunyin
+  #  telegram: http://t.me/kunyintang
+  #  instagram: https://www.instagram.com/mtangsir/
+  #  twitter: https://twitter.com/tangkunyin
   github: https://github.com/Fengtianhe
 
 # article declare. default content in languages
