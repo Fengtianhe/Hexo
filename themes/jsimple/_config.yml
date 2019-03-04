@@ -6,7 +6,7 @@ shortName: 记
 webmaster:
   name: 纠结伦
   avatar: /images/favicon.png
-  home: https://shuoit.net
+  home: http://fengtianhe.cn
   desc: 一个搬🧱的劳斯基😁️️
 
 # CSP Model, true means #Content-Security-Policy = upgrade-insecure-requests# in meat tag
@@ -43,9 +43,9 @@ menu:
 
 # Customize left navigation menus. faName is FontAwesome style name
 left_nav_menus:
-- uri: links
-  title: 友链
-  faName: fa-links
+  - uri: links
+    title: 友链
+    faName: fa-links
 - uri: help
   title: 帮助
   faName: fa-question-circle
