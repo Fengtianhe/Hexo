@@ -46,9 +46,9 @@ left_nav_menus:
   - uri: links
     title: 友链
     faName: fa-links
-- uri: help
-  title: 帮助
-  faName: fa-question-circle
+  - uri: help
+    title: 帮助
+    faName: fa-question-circle
 
 
 # cover info config
