@@ -1,10 +1,10 @@
 # site name
-siteName: 爬坑笔记
-shortName: 记
+site_name: 爬坑笔记
+short_name: 记
 
 # Master info. It won't work if the one from (author|authorLink|avatar|authorDesc) be written in post.md
 webmaster:
-  name: 纠结伦
+  name: 冯天鹤
   avatar: /images/favicon.png
   home: http://fengtianhe.cn
   desc: 一个搬🧱的劳斯基😁️️
@@ -52,8 +52,8 @@ left_nav_menus:
 
 
 # cover info config
-coverTitle: 用代码摇滚这个世界
-coverDescription: 一个程序员一步一步爬坑的过程
+cover_title: 用代码摇滚这个世界
+cover_description: 一个程序员一步一步爬坑的过程
 
 # sns url
 # 社交信息，支持：telegram,instagram,twitter,github,sinaWb,facebook,github，建议最多4项
