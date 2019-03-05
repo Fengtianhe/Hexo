@@ -82,10 +82,10 @@ theme: jsimple
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  branch: master  ## branch这一行默认不写，如果你需要特别指定，可以在这里加上
+- type: git
+  branch: master  #branch这一行默认不写，如果你需要特别指定，可以在这里加上
   repository: https://git.dev.tencent.com/fengtianhe/blog.git
-
+- type: baidu_url_submitter
 # 搜索配置
 #jsonContent:
 #  meta: true
@@ -121,3 +121,10 @@ search:
   path: search.xml
   field: post
   content: true
+
+# hexo
+baidu_url_submit:
+  count: 1000 #提交最新的一个链接
+  host: fengtianhe.cn #在百度站长平台中注册的域名
+  token: IdvByi6aExn3Tf4A #请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt #文本文档的地址， 新链接会保存在此文本文档里
