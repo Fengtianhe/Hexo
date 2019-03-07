@@ -106,7 +106,7 @@ ps: 无知的我一直在tail 生成的日志，其实已经写进去了，只�
 
 * 然后到kibana安装目录的config下，编辑kibana.yml配置文件，(可以使用默认)
 
-* `./bin/kibana` 启动
+* `./bin/kibana &` 启动然后输入exit就后台启动了
 
 * 浏览器 `127.0.0.1:5601` 打开kibana控制台
 ---
@@ -133,4 +133,7 @@ GET 请求 elasticsearch服务器/_search 查看是否有数据
         执行汉化命令 `python main.py ~/kibana-6.6.1-linux-x86_64/`
         重启kibana(汉化只能解决部分问题，重要的还是学英语吧)
 
+---
+
+### 相关文章
 
