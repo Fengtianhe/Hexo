@@ -1341,6 +1341,9 @@ body.night-mode,.night-mode .btn,body.night-mode a,.night-mode .nav-user a,#sear
     text-align:right;
     padding-right:20px;
 }
+.markdown-body .highlight tr {
+    display: flex;
+}
 .markdown-body .highlight .line {
     height:22px;
 }
