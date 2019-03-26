@@ -1,8 +1,11 @@
 ---
-title: 项目开发流程--发布部署限制
+title: Android 发布部署限制
 date: 2019-02-25 17:11:30
-tags: 项目开发流程
-categories: others
+tags:
+    - 项目发布
+    - ReactNative
+    - Android
+categories: fe
 author: 冯天鹤
 ---
 
