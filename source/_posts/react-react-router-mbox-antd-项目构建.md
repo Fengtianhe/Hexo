@@ -1,5 +1,5 @@
 ---
-title: react + react-router + mbox + antd 项目构建
+title: react + react-router + mbox + 飞冰 项目构建
 date: 2019-03-26 15:54:00
 tags: React
 category: fe
@@ -140,3 +140,10 @@ serviceWorker.unregister();
 
 ```
 `npm start` 运行简单的页面跳转效果就有了
+## 3 安装配置飞冰
+>   文档 https://alibaba.github.io/ice
+### 3.1 安装飞冰
+`npm install npm install @alifd/next -S`
+安装sass支持 `npm i sass-loader node-sass`
+### 3.2 配置飞冰
+在`src/index.js` 引入 import '@alifd/next/dist/next.min.css'
