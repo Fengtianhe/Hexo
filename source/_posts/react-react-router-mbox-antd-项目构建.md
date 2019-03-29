@@ -147,3 +147,6 @@ serviceWorker.unregister();
 安装sass支持 `npm i sass-loader node-sass`
 ### 3.2 配置飞冰
 在`src/index.js` 引入 import '@alifd/next/dist/next.min.css'
+剩下的就使用飞冰的区块就好了
+---
+公司有需求，下边待续吧。。。
