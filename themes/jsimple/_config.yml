@@ -39,6 +39,7 @@ site_building_time: 01/20/2018
 ## BTW,'category_map' and 'tag_map' field in site '_config.yml' file must one to one correspondence with menus below.
 menu:
   前端: fe
+  小程序: wxminiprogram
   后端: rd
   数据库: db
   服务器: server
