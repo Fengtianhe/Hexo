@@ -33,7 +33,7 @@ Zip 包请求 —— 扩展包源码压缩包。
 镜像类型：全量镜像
 更新时间：1 分钟
 镜像地址：https://mirrors.aliyun.com/composer/
-官方地址：https://mirrors.aliyun.com/composer/index....\
+官方地址：https://developer.aliyun.com/composer
 镜像说明：阿里云 CDN 加速，更新速度快，推荐使用
 
 ### 安畅网络镜像
