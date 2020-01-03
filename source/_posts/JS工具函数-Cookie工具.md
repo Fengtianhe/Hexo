@@ -14,7 +14,7 @@ categories: fe
        *读取指定的Cookie值 readCookie("id");
        *@param {string} cookieName Cookie名称
        */
-      readCookie: (cookieName) => {
+      get: (cookieName) => {
         var theCookie = "" + document.cookie;
         var ind = theCookie.indexOf(cookieName);
         if (ind == -1 || cookieName == "") return "";
@@ -30,7 +30,7 @@ categories: fe
        * @param {string} cookieValue Cookie值
        * @param {number} nDays Cookie过期天数
        */
-      setCookie: (cookieName, cookieValue) => {
+      set: (cookieName, cookieValue) => {
         /* 当前日期 */
         var today = new Date();
         /* Cookie过期时间 */
@@ -46,7 +46,7 @@ categories: fe
        * 删除cookie中指定变量函数
        * @param {string} $name Cookie名称
        */
-      deleteCookie: ($name) => {
+      delete: ($name) => {
         var myDate = new Date();
         myDate.setTime(-1000);// 设置时间
         document.cookie = $name + "=''; expires=" + myDate.toGMTString();
@@ -58,7 +58,7 @@ categories: fe
        * @param {string} cookieValue Cookie值
        * @param {number} nDays Cookie过期天数
        */
-      clearCookie: () => {
+      clear: () => {
         var myDate = new Date();
         myDate.setTime(-1000);// 设置时间
         var data = document.cookie;
